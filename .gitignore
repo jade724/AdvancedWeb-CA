@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environment
+venv/
+env/
+
+# Django / Database
+*.sqlite3
+db.sqlite3
+*.log
+
+# Postgres credentials or environment files
+.env
+*.env
+
+# Django cache and compiled files
+staticfiles/
+media/
+*.pot
+*.mo
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+
+# Migrations (optional – only if you want to exclude auto-generated migrations)
+# stations/migrations/
+
+# Byte-compiled / optimized / DLL files
+*.egg-info/
+dist/
+build/
