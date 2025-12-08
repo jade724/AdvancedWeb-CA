@@ -27,5 +27,5 @@ EXPOSE 8000
 RUN python manage.py collectstatic --noinput
 
 # Start Gunicorn server
-CMD ["gunicorn", "fuelsmart.wsgi:application", "--bind", "0.0.0.0:8000"]
+CMD ["sh", "-c", "python manage.py migrate && gunicorn fuelsmart.wsgi:application --bind 0.0.0.0:8000"]
 
