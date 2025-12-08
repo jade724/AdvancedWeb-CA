@@ -1,20 +1,15 @@
-from rest_framework.routers import DefaultRouter
-from .views import StationViewSet
 from django.urls import path
 from django.http import HttpResponse
-from .views import StationViewSet, map_page  
-
-# Router for StationViewSet
-router = DefaultRouter()
-router.register(r"stations", StationViewSet, basename="stations")
+from .views import StationList, NearbyStations, map_page
 
 
 def health(request):
-	return HttpResponse("ok")
+    return HttpResponse("ok")
 
-# URL patterns (explicit list)
+
 urlpatterns = [
-	*router.urls,
-	path("health/", health),
-	path("map/", map_page, name="map_page")
+    path("stations/", StationList.as_view(), name="station_list"),
+    path("stations/nearby/", NearbyStations.as_view(), name="nearby_stations"),
+    path("health/", health, name="health"),
+    path("map/", map_page, name="map_page"),
 ]

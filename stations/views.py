@@ -1,101 +1,66 @@
-from rest_framework import viewsets, filters
-from rest_framework.decorators import action
-from rest_framework.response import Response
-from django.contrib.gis.db.models.functions import Distance
-from django.contrib.gis.geos import Point
 from django.shortcuts import render
+from rest_framework import generics
+from rest_framework.response import Response
+from math import radians, sin, cos, sqrt, atan2
 
 from .models import Station
-from .serializers import StationGeoSerializer
+from .serializers import StationSerializer
 
 
-class StationViewSet(viewsets.ModelViewSet):
-    """
-    Main API for stations.
+# -------------------------
+# Haversine distance helper
+# -------------------------
+def haversine(lat1, lon1, lat2, lon2):
+    R = 6371000  # metres
+    lat1, lon1, lat2, lon2 = map(radians, [lat1, lon1, lat2, lon2])
 
-    Base endpoints:
-      - GET    /api/stations/           -> all stations (FeatureCollection)
-      - POST   /api/stations/           -> create
-      - GET    /api/stations/<id>/      -> detail
-      - PUT    /api/stations/<id>/      -> update
-      - PATCH  /api/stations/<id>/      -> partial update
-      - DELETE /api/stations/<id>/      -> delete
+    d_lat = lat2 - lat1
+    d_lon = lon2 - lon1
 
-    Extra endpoints:
-      - GET /api/stations/nearby/?lat=..&lon=..&radius=5000
-      - GET /api/stations/cheapest/?lat=..&lon=..&radius=5000
-    """
-    queryset = Station.objects.all().order_by("id")
-    serializer_class = StationGeoSerializer
+    a = sin(d_lat/2)**2 + cos(lat1)*cos(lat2)*sin(d_lon/2)**2
+    c = 2 * atan2(sqrt(a), sqrt(1-a))
 
-    # IMPORTANT: no pagination so the API returns a single FeatureCollection
-    pagination_class = None
-
-    # Simple text search + ordering if used from DRF UI
-    filter_backends = [filters.SearchFilter, filters.OrderingFilter]
-    search_fields = ["name"]
-    ordering_fields = ["fuel_price", "updated_at", "name"]
-
-    def _user_point(self, request):
-        """
-        Read lat/lon from the query parameters.
-        Defaults to Dublin city centre if not supplied.
-        """
-        lat = float(request.GET.get("lat", 53.3498))
-        lon = float(request.GET.get("lon", -6.2603))
-        return Point(lon, lat, srid=4326)
-
-    # --------------------------------------------------
-    # Nearby stations within a radius (in metres)
-    # --------------------------------------------------
-    @action(detail=False, methods=["get"])
-    def nearby(self, request):
-        """
-        GET /api/stations/nearby/?lat=..&lon=..&radius=5000
-
-        Returns stations as a GeoJSON FeatureCollection,
-        ordered by distance (closest first).
-        """
-        radius = float(request.GET.get("radius", 5000))
-        user_pt = self._user_point(request)
-
-        qs = (
-            Station.objects
-            .annotate(distance=Distance("geom", user_pt))
-            .filter(distance__lte=radius)
-            .order_by("distance")
-        )
-
-        serializer = self.get_serializer(qs, many=True)
-        return Response(serializer.data)
-
-    # --------------------------------------------------
-    # Cheapest stations within a radius
-    # --------------------------------------------------
-    @action(detail=False, methods=["get"])
-    def cheapest(self, request):
-        """
-        GET /api/stations/cheapest/?lat=..&lon=..&radius=5000
-
-        Returns stations as a GeoJSON FeatureCollection,
-        ordered by price (cheapest first, then by distance).
-        """
-        radius = float(request.GET.get("radius", 5000))
-        user_pt = self._user_point(request)
-
-        qs = (
-            Station.objects
-            .annotate(distance=Distance("geom", user_pt))
-            .filter(distance__lte=radius)
-            .order_by("fuel_price", "distance")
-        )
-
-        serializer = self.get_serializer(qs, many=True)
-        return Response(serializer.data)
+    return R * c  # distance in metres
 
 
+# -------------------------
+# List all stations
+# -------------------------
+class StationList(generics.ListAPIView):
+    queryset = Station.objects.all()
+    serializer_class = StationSerializer
+
+
+# -------------------------
+# Nearby station search
+# -------------------------
+class NearbyStations(generics.ListAPIView):
+    serializer_class = StationSerializer
+
+    def get_queryset(self):
+        try:
+            lat = float(self.request.query_params.get("lat"))
+            lon = float(self.request.query_params.get("lon"))
+        except (TypeError, ValueError):
+            return Station.objects.none()
+
+        radius = float(self.request.query_params.get("radius", 5000))
+
+        stations = Station.objects.all()
+        results = []
+
+        for s in stations:
+            d = haversine(lat, lon, s.latitude, s.longitude)
+            if d <= radius:
+                s.distance = d
+                results.append(s)
+
+        # Sort by closest first
+        return sorted(results, key=lambda x: x.distance)
+
+
+# -------------------------
+# Map HTML page
+# -------------------------
 def map_page(request):
-    """
-    Renders the main Leaflet map page.
-    """
-    return render(request, "stations/map.html")
+    return render(request, "map.html")

@@ -28,12 +28,8 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-    # Django GIS
-    "django.contrib.gis",
-
     # REST framework
     "rest_framework",
-    "rest_framework_gis",
 
     # Your apps
     "stations",
@@ -83,12 +79,17 @@ WSGI_APPLICATION = "fuelsmart.wsgi.application"
 # DATABASE SETTINGS (SUPABASE POSTGIS)
 # ---------------------------------------------------------
 DATABASES = {
-    "default": dj_database_url.config(
-        default=os.getenv("DATABASE_URL"),
-        conn_max_age=600,
-        ssl_require=True
-    )
+    "default": {
+        "ENGINE": "django.db.backends.postgresql",
+        "NAME": os.getenv("POSTGRES_DB"),
+        "USER": os.getenv("POSTGRES_USER"),
+        "PASSWORD": os.getenv("POSTGRES_PASSWORD"),
+        "HOST": os.getenv("POSTGRES_HOST"),
+        "PORT": os.getenv("POSTGRES_PORT", 5432),
+    }
 }
+
+
 
 # ---------------------------------------------------------
 # PASSWORD VALIDATION
@@ -113,9 +114,6 @@ USE_TZ = True
 # ---------------------------------------------------------
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
-STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "static"),
-]
 
 # ---------------------------------------------------------
 # MEDIA FILES (optional)

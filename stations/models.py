@@ -1,11 +1,18 @@
-from django.contrib.gis.db import models
+from django.db import models
 
 class Station(models.Model):
-    name = models.CharField(max_length=100)
-    station_type = models.CharField(max_length=50)
-    fuel_price = models.DecimalField(max_digits=4, decimal_places=2)
-    geom = models.PointField(geography=True)  # 👈 Must match geo_field above
+    STATION_TYPES = [
+        ("petrol", "Petrol station"),
+        ("ev", "EV charger"),
+    ]
+
+    name = models.CharField(max_length=255)
+    station_type = models.CharField(max_length=20, choices=STATION_TYPES)
+    fuel_price = models.FloatField(null=True, blank=True)
+    latitude = models.FloatField()
+    longitude = models.FloatField()
+
     updated_at = models.DateTimeField(auto_now=True)
 
     def __str__(self):
-        return f"{self.name} ({self.station_type})"
+        return self.name

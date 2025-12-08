@@ -23,6 +23,7 @@ from stations.views_page import map_page
 urlpatterns = [
     path("admin/", admin.site.urls),
     path("api/", include("stations.urls")),
+    path("api/stations/", include("stations.urls")),
     path("schema/", SpectacularAPIView.as_view(), name="schema"),
     path('api/docs/', SpectacularSwaggerView.as_view(url_name='schema')),
     path("", map_page, name="map"),
