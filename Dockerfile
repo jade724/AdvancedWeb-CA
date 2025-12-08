@@ -16,5 +16,8 @@ COPY . .
 # Make entrypoint executable
 RUN chmod +x /app/entrypoint.sh
 
-# Run Django via entrypoint
-ENTRYPOINT ["/app/entrypoint.sh"]
+# Document the port we listen on (Render will still use $PORT)
+EXPOSE 8000
+
+# Start via entrypoint script
+CMD ["/app/entrypoint.sh"]
