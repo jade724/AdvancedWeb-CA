@@ -1,0 +1,32 @@
+# yaml-language-server: $schema=https://render.com/schemas/render.yamlschema.json
+
+services:
+  - name: fuelsmart-backend
+    type: web
+    runtime: docker        
+    repo: https://github.com/jade724/AdvancedWeb-CA
+    plan: free
+    dockerfilePath: Dockerfile
+    autoDeploy: true
+
+    envVars:
+      - key: DJANGO_SECRET_KEY
+        value: "change-this-secret"
+
+      - key: DJANGO_DEBUG
+        value: "False"
+
+      - key: DJANGO_ALLOWED_HOSTS
+        value: "*"
+
+      # DATABASE — these MUST come from Render after creating the DB
+      - key: POSTGRES_DB
+        sync: false
+      - key: POSTGRES_USER
+        sync: false
+      - key: POSTGRES_PASSWORD
+        sync: false
+      - key: POSTGRES_HOST
+        sync: false
+      - key: POSTGRES_PORT
+        value: "5432"
