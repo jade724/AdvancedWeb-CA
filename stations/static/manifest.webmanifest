@@ -1,0 +1,22 @@
+{
+  "name": "FuelSmart Finder",
+  "short_name": "FuelSmart",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#020617",
+  "theme_color": "#0f172a",
+  "description": "Find the nearest or cheapest petrol and EV charging stations.",
+  "icons": [
+    {
+      "src": "/static/images/pwa-icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "/static/images/pwa-icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ]
+}

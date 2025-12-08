@@ -3,11 +3,13 @@ from django.contrib.gis.geos import Point
 from .models import Station
 
 class StationGeoSerializer(GeoFeatureModelSerializer):
+    # Serializer for Station model with geometry
     class Meta:
         model = Station
         geo_field = "geom"
         fields = ("id", "name", "station_type", "fuel_price", "updated_at")
 
+    # Override to include geometry in properties
     def to_representation(self, instance):
         data = super().to_representation(instance)
         geom = instance.geom

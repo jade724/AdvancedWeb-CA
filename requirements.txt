@@ -18,3 +18,4 @@ rpds-py==0.28.0
 sqlparse==0.5.3
 uritemplate==4.2.0
 gunicorn==20.1.0
+dj-database-url==3.0.1

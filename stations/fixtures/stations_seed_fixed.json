@@ -1,0 +1,5502 @@
+[
+  {
+    "model": "stations.station",
+    "pk": 1,
+    "fields": {
+      "name": "Circle K Longford Site 1",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-7.796251 53.740897)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 2,
+    "fields": {
+      "name": "Applegreen Castlebar Site 2",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-9.356778 53.827845)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 3,
+    "fields": {
+      "name": "Top Oil Kilkenny Site 3",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-7.280674 52.647203)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 4,
+    "fields": {
+      "name": "Circle K Carlow Site 4",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-6.865397 52.837196)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 5,
+    "fields": {
+      "name": "Applegreen Tullamore Site 5",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-7.490456 53.261633)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 6,
+    "fields": {
+      "name": "Applegreen Cork City Site 6",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-8.489041 51.916983)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 7,
+    "fields": {
+      "name": "Texaco Clonmel Site 7",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-7.680244 52.362703)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 8,
+    "fields": {
+      "name": "Applegreen Gorey Site 8",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.270186 52.710461)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 9,
+    "fields": {
+      "name": "Applegreen Wexford Site 9",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-6.399842 52.291669)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 10,
+    "fields": {
+      "name": "Circle K Carlow Site 10",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-6.967745 52.857095)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 11,
+    "fields": {
+      "name": "Circle K Monaghan Site 11",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-7.043593 54.211299)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 12,
+    "fields": {
+      "name": "Top Oil Sligo Site 12",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-8.455271 54.268917)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 13,
+    "fields": {
+      "name": "Applegreen Mullingar Site 13",
+      "station_type": "petrol",
+      "fuel_price": "1.84",
+      "geom": "POINT (-7.326808 53.580085)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 14,
+    "fields": {
+      "name": "Texaco Bray Site 14",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-6.083408 53.196725)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 15,
+    "fields": {
+      "name": "Texaco Shannon Site 15",
+      "station_type": "petrol",
+      "fuel_price": "1.68",
+      "geom": "POINT (-8.976214 52.711903)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 16,
+    "fields": {
+      "name": "Top Oil Cashel Site 16",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-7.939998 52.531154)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 17,
+    "fields": {
+      "name": "Applegreen Wexford Site 17",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-6.501232 52.337989)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 18,
+    "fields": {
+      "name": "Applegreen Galway City Site 18",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-9.121617 53.291012)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 19,
+    "fields": {
+      "name": "Applegreen Macroom Site 19",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-8.874712 51.894558)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 20,
+    "fields": {
+      "name": "Texaco Cork City Site 20",
+      "station_type": "petrol",
+      "fuel_price": "1.68",
+      "geom": "POINT (-8.492816 51.936392)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 21,
+    "fields": {
+      "name": "Texaco Trim Site 21",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-6.791318 53.553935)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 22,
+    "fields": {
+      "name": "Top Oil Galway City Site 22",
+      "station_type": "petrol",
+      "fuel_price": "1.80",
+      "geom": "POINT (-9.073594 53.261219)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 23,
+    "fields": {
+      "name": "Top Oil Galway City Site 23",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-9.036825 53.266927)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 24,
+    "fields": {
+      "name": "Texaco Macroom Site 24",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-8.951988 51.902229)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 25,
+    "fields": {
+      "name": "Maxol Sligo Site 25",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-8.383485 54.301812)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 26,
+    "fields": {
+      "name": "Top Oil Clonmel Site 26",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-7.736814 52.358176)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 27,
+    "fields": {
+      "name": "Top Oil Killarney Site 27",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-9.500796 52.100355)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 28,
+    "fields": {
+      "name": "Texaco Cavan Site 28",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-7.340308 53.989331)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 29,
+    "fields": {
+      "name": "Applegreen Killarney Site 29",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-9.488971 52.067207)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 30,
+    "fields": {
+      "name": "Applegreen Wexford Site 30",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-6.459176 52.333126)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 31,
+    "fields": {
+      "name": "Maxol Dublin City Site 31",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-6.258177 53.366581)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 32,
+    "fields": {
+      "name": "Circle K Limerick Site 32",
+      "station_type": "petrol",
+      "fuel_price": "1.84",
+      "geom": "POINT (-8.705586 52.637657)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 33,
+    "fields": {
+      "name": "Maxol Greystones Site 33",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-6.074802 53.147747)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 34,
+    "fields": {
+      "name": "Maxol Dublin City Site 34",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-6.190596 53.379403)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 35,
+    "fields": {
+      "name": "Maxol Cork City Site 35",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-8.502849 51.901917)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 36,
+    "fields": {
+      "name": "Top Oil Portlaoise Site 36",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-7.344467 53.040322)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 37,
+    "fields": {
+      "name": "Circle K Ballinasloe Site 37",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-8.111112 53.316252)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 38,
+    "fields": {
+      "name": "Circle K Ennis Site 38",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-8.930430 52.822542)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 39,
+    "fields": {
+      "name": "Maxol Maynooth Site 39",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-6.630485 53.387356)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 40,
+    "fields": {
+      "name": "Circle K Cashel Site 40",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-7.863549 52.547909)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 41,
+    "fields": {
+      "name": "Applegreen Midleton Site 41",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-8.188629 51.927602)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 42,
+    "fields": {
+      "name": "Top Oil Tralee Site 42",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-9.622861 52.287479)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 43,
+    "fields": {
+      "name": "Maxol Waterford Site 43",
+      "station_type": "petrol",
+      "fuel_price": "1.68",
+      "geom": "POINT (-7.106431 52.256648)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 44,
+    "fields": {
+      "name": "Maxol Thurles Site 44",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-7.825631 52.669003)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 45,
+    "fields": {
+      "name": "Texaco Thurles Site 45",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-7.783824 52.720819)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 46,
+    "fields": {
+      "name": "Applegreen Bray Site 46",
+      "station_type": "petrol",
+      "fuel_price": "1.65",
+      "geom": "POINT (-6.124322 53.204583)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 47,
+    "fields": {
+      "name": "Circle K Gorey Site 47",
+      "station_type": "petrol",
+      "fuel_price": "1.77",
+      "geom": "POINT (-6.186861 52.705911)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 48,
+    "fields": {
+      "name": "Texaco Limerick Site 48",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-8.554280 52.617487)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 49,
+    "fields": {
+      "name": "Top Oil Ashbourne Site 49",
+      "station_type": "petrol",
+      "fuel_price": "1.65",
+      "geom": "POINT (-6.466746 53.477654)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 50,
+    "fields": {
+      "name": "Circle K Nenagh Site 50",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-8.164511 52.854496)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 51,
+    "fields": {
+      "name": "Circle K Cork City Site 51",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-8.493370 51.920075)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 52,
+    "fields": {
+      "name": "Texaco Kilkenny Site 52",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-7.332274 52.652457)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 53,
+    "fields": {
+      "name": "Applegreen Dublin City Site 53",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-6.262998 53.359316)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 54,
+    "fields": {
+      "name": "Top Oil Limerick Site 54",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-8.632786 52.636163)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 55,
+    "fields": {
+      "name": "Circle K Cashel Site 55",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-7.881782 52.513232)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 56,
+    "fields": {
+      "name": "Texaco Newbridge Site 56",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-6.782751 53.193637)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 57,
+    "fields": {
+      "name": "Applegreen Dublin City Site 57",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-6.260151 53.379912)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 58,
+    "fields": {
+      "name": "Circle K Cashel Site 58",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-7.934262 52.486613)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 59,
+    "fields": {
+      "name": "Maxol Sligo Site 59",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-8.435545 54.211448)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 60,
+    "fields": {
+      "name": "Circle K Tullamore Site 60",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-7.522394 53.241102)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 61,
+    "fields": {
+      "name": "Circle K Monaghan Site 61",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-6.955050 54.234529)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 62,
+    "fields": {
+      "name": "Circle K Carlow Site 62",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.901938 52.815151)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 63,
+    "fields": {
+      "name": "Texaco Waterford Site 63",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-7.083418 52.266913)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 64,
+    "fields": {
+      "name": "Applegreen Tralee Site 64",
+      "station_type": "petrol",
+      "fuel_price": "1.68",
+      "geom": "POINT (-9.751554 52.262755)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 65,
+    "fields": {
+      "name": "Applegreen Letterkenny Site 65",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-7.738260 54.972093)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 66,
+    "fields": {
+      "name": "Top Oil Naas Site 66",
+      "station_type": "petrol",
+      "fuel_price": "1.68",
+      "geom": "POINT (-6.706472 53.196052)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 67,
+    "fields": {
+      "name": "Top Oil Cobh Site 67",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-8.305191 51.852030)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 68,
+    "fields": {
+      "name": "Circle K Clonmel Site 68",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-7.710358 52.304431)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 69,
+    "fields": {
+      "name": "Applegreen Dublin City Site 69",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-6.339460 53.303630)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 70,
+    "fields": {
+      "name": "Texaco Athlone Site 70",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-7.965874 53.453611)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 71,
+    "fields": {
+      "name": "Circle K Waterford Site 71",
+      "station_type": "petrol",
+      "fuel_price": "1.80",
+      "geom": "POINT (-7.134917 52.228382)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 72,
+    "fields": {
+      "name": "Circle K Athlone Site 72",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-7.957615 53.453715)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 73,
+    "fields": {
+      "name": "Circle K Midleton Site 73",
+      "station_type": "petrol",
+      "fuel_price": "1.77",
+      "geom": "POINT (-8.220622 51.924597)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 74,
+    "fields": {
+      "name": "Top Oil Galway City Site 74",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-9.081004 53.247617)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 75,
+    "fields": {
+      "name": "Applegreen Sligo Site 75",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-8.462482 54.292845)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 76,
+    "fields": {
+      "name": "Top Oil Portlaoise Site 76",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-7.374024 53.043527)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 77,
+    "fields": {
+      "name": "Applegreen Monaghan Site 77",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-6.949430 54.262802)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 78,
+    "fields": {
+      "name": "Top Oil Cork City Site 78",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-8.471612 51.872877)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 79,
+    "fields": {
+      "name": "Maxol Cashel Site 79",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-7.921029 52.521152)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 80,
+    "fields": {
+      "name": "Top Oil Cashel Site 80",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-7.827116 52.486387)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 81,
+    "fields": {
+      "name": "Circle K Tralee Site 81",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-9.750302 52.281802)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 82,
+    "fields": {
+      "name": "Texaco Portlaoise Site 82",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-7.278552 53.004611)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 83,
+    "fields": {
+      "name": "Texaco Killarney Site 83",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-9.546159 52.067039)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 84,
+    "fields": {
+      "name": "Circle K Tullamore Site 84",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-7.469066 53.290279)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 85,
+    "fields": {
+      "name": "Top Oil Galway City Site 85",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-9.076778 53.278145)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 86,
+    "fields": {
+      "name": "Top Oil Dublin City Site 86",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-6.240508 53.341753)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 87,
+    "fields": {
+      "name": "Applegreen Dublin City Site 87",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-6.327808 53.387461)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 88,
+    "fields": {
+      "name": "Maxol Athlone Site 88",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-7.856092 53.408837)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 89,
+    "fields": {
+      "name": "Texaco Tipperary Site 89",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-8.249026 52.477362)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 90,
+    "fields": {
+      "name": "Circle K Dublin City Site 90",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-6.246614 53.323621)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 91,
+    "fields": {
+      "name": "Top Oil Limerick Site 91",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-8.559308 52.632714)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 92,
+    "fields": {
+      "name": "Circle K Dublin City Site 92",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.249790 53.342848)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 93,
+    "fields": {
+      "name": "Maxol Maynooth Site 93",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-6.611315 53.398049)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 94,
+    "fields": {
+      "name": "Top Oil Navan Site 94",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.669057 53.653666)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 95,
+    "fields": {
+      "name": "Applegreen Naas Site 95",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-6.656336 53.213492)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 96,
+    "fields": {
+      "name": "Circle K Sligo Site 96",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-8.472563 54.272219)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 97,
+    "fields": {
+      "name": "Texaco Cork City Site 97",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-8.496829 51.878730)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 98,
+    "fields": {
+      "name": "Circle K Kinsale Site 98",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-8.514217 51.648752)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 99,
+    "fields": {
+      "name": "Maxol Cork City Site 99",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-8.549463 51.878395)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 100,
+    "fields": {
+      "name": "Circle K Newry Site 100",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-6.326284 54.161520)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 101,
+    "fields": {
+      "name": "Top Oil Athlone Site 101",
+      "station_type": "petrol",
+      "fuel_price": "1.84",
+      "geom": "POINT (-7.881002 53.457355)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 102,
+    "fields": {
+      "name": "Texaco Naas Site 102",
+      "station_type": "petrol",
+      "fuel_price": "1.65",
+      "geom": "POINT (-6.613578 53.229649)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 103,
+    "fields": {
+      "name": "Maxol Navan Site 103",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-6.648644 53.647977)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 104,
+    "fields": {
+      "name": "Top Oil Trim Site 104",
+      "station_type": "petrol",
+      "fuel_price": "1.84",
+      "geom": "POINT (-6.805321 53.543220)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 105,
+    "fields": {
+      "name": "Top Oil Clonmel Site 105",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-7.674011 52.319933)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 106,
+    "fields": {
+      "name": "Circle K Sligo Site 106",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-8.452822 54.257463)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 107,
+    "fields": {
+      "name": "Texaco Thurles Site 107",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-7.755349 52.687144)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 108,
+    "fields": {
+      "name": "Top Oil Kilkenny Site 108",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-7.257472 52.669776)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 109,
+    "fields": {
+      "name": "Circle K Drogheda Site 109",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-6.328431 53.747421)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 110,
+    "fields": {
+      "name": "Maxol Ennis Site 110",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-9.015326 52.846829)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 111,
+    "fields": {
+      "name": "Texaco Dublin City Site 111",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-6.264496 53.343260)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 112,
+    "fields": {
+      "name": "Top Oil Newbridge Site 112",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-6.845360 53.193773)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 113,
+    "fields": {
+      "name": "Circle K Monaghan Site 113",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-6.966651 54.266678)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 114,
+    "fields": {
+      "name": "Maxol Clonmel Site 114",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-7.669909 52.408479)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 115,
+    "fields": {
+      "name": "Applegreen Mallow Site 115",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-8.669850 52.186439)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 116,
+    "fields": {
+      "name": "Top Oil Dundalk Site 116",
+      "station_type": "petrol",
+      "fuel_price": "1.68",
+      "geom": "POINT (-6.375334 54.004478)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 117,
+    "fields": {
+      "name": "Circle K Dublin City Site 117",
+      "station_type": "petrol",
+      "fuel_price": "1.80",
+      "geom": "POINT (-6.288781 53.300227)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 118,
+    "fields": {
+      "name": "Maxol Ennis Site 118",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-8.980608 52.845274)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 119,
+    "fields": {
+      "name": "Applegreen Waterford Site 119",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-7.073049 52.232483)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 120,
+    "fields": {
+      "name": "Circle K Bray Site 120",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-6.121730 53.172891)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 121,
+    "fields": {
+      "name": "Top Oil Thurles Site 121",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-7.802423 52.701997)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 122,
+    "fields": {
+      "name": "Maxol Kinsale Site 122",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-8.521294 51.670828)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 123,
+    "fields": {
+      "name": "Top Oil Ashbourne Site 123",
+      "station_type": "petrol",
+      "fuel_price": "1.80",
+      "geom": "POINT (-6.432692 53.520209)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 124,
+    "fields": {
+      "name": "Circle K Enniscorthy Site 124",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-6.562722 52.479259)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 125,
+    "fields": {
+      "name": "Applegreen Cork City Site 125",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-8.474916 51.902083)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 126,
+    "fields": {
+      "name": "Texaco Cavan Site 126",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-7.355948 54.014602)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 127,
+    "fields": {
+      "name": "Top Oil Carlow Site 127",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-6.935086 52.841994)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 128,
+    "fields": {
+      "name": "Texaco Waterford Site 128",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-7.136000 52.238149)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 129,
+    "fields": {
+      "name": "Top Oil Cork City Site 129",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-8.501536 51.892107)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 130,
+    "fields": {
+      "name": "Texaco Ashbourne Site 130",
+      "station_type": "petrol",
+      "fuel_price": "1.77",
+      "geom": "POINT (-6.407704 53.497707)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 131,
+    "fields": {
+      "name": "Texaco Shannon Site 131",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-8.888502 52.685472)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 132,
+    "fields": {
+      "name": "Top Oil Dublin City Site 132",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-6.247823 53.337377)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 133,
+    "fields": {
+      "name": "Applegreen Dublin City Site 133",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-6.272401 53.408428)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 134,
+    "fields": {
+      "name": "Circle K Galway City Site 134",
+      "station_type": "petrol",
+      "fuel_price": "1.89",
+      "geom": "POINT (-9.012686 53.254989)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 135,
+    "fields": {
+      "name": "Texaco Trim Site 135",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-6.742367 53.573652)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 136,
+    "fields": {
+      "name": "Maxol Mullingar Site 136",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-7.377294 53.567438)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 137,
+    "fields": {
+      "name": "Texaco Bray Site 137",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-6.173693 53.213428)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 138,
+    "fields": {
+      "name": "Applegreen Cork City Site 138",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-8.558314 51.894413)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 139,
+    "fields": {
+      "name": "Top Oil Tipperary Site 139",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-8.171281 52.472173)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 140,
+    "fields": {
+      "name": "Circle K Arklow Site 140",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-6.156482 52.802232)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 141,
+    "fields": {
+      "name": "Top Oil Ashbourne Site 141",
+      "station_type": "petrol",
+      "fuel_price": "1.84",
+      "geom": "POINT (-6.326058 53.519108)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 142,
+    "fields": {
+      "name": "Applegreen Carrick-on-Shannon Site 142",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-8.120977 53.942354)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 143,
+    "fields": {
+      "name": "Maxol Cork City Site 143",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-8.475854 51.887140)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 144,
+    "fields": {
+      "name": "Maxol Dundalk Site 144",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-6.373541 53.985083)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 145,
+    "fields": {
+      "name": "Circle K Nenagh Site 145",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-8.210037 52.858372)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 146,
+    "fields": {
+      "name": "Top Oil Drogheda Site 146",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-6.396064 53.762983)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 147,
+    "fields": {
+      "name": "Maxol Dublin City Site 147",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-6.281298 53.342180)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 148,
+    "fields": {
+      "name": "Top Oil Carlow Site 148",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-6.973687 52.827410)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 149,
+    "fields": {
+      "name": "Maxol Mullingar Site 149",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-7.331425 53.588876)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 150,
+    "fields": {
+      "name": "Maxol Greystones Site 150",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-6.069598 53.135249)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 151,
+    "fields": {
+      "name": "Applegreen Tuam Site 151",
+      "station_type": "petrol",
+      "fuel_price": "1.68",
+      "geom": "POINT (-8.802784 53.552896)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 152,
+    "fields": {
+      "name": "Applegreen Mallow Site 152",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-8.644009 52.128555)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 153,
+    "fields": {
+      "name": "Circle K Carlow Site 153",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-6.929781 52.832754)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 154,
+    "fields": {
+      "name": "Texaco Letterkenny Site 154",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-7.760800 54.931873)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 155,
+    "fields": {
+      "name": "Maxol Clonmel Site 155",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-7.709533 52.336802)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 156,
+    "fields": {
+      "name": "Texaco Dublin City Site 156",
+      "station_type": "petrol",
+      "fuel_price": "1.89",
+      "geom": "POINT (-6.275892 53.328513)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 157,
+    "fields": {
+      "name": "Applegreen Cork City Site 157",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-8.498641 51.889998)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 158,
+    "fields": {
+      "name": "Applegreen Cavan Site 158",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-7.364536 53.993937)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 159,
+    "fields": {
+      "name": "Circle K Newbridge Site 159",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-6.828586 53.190382)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 160,
+    "fields": {
+      "name": "Maxol Cork City Site 160",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-8.505697 51.871707)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 161,
+    "fields": {
+      "name": "Applegreen Limerick Site 161",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-8.660645 52.666047)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 162,
+    "fields": {
+      "name": "Maxol Portlaoise Site 162",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-7.258144 53.077389)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 163,
+    "fields": {
+      "name": "Maxol Mallow Site 163",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-8.669016 52.110960)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 164,
+    "fields": {
+      "name": "Maxol Waterford Site 164",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-7.024898 52.300627)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 165,
+    "fields": {
+      "name": "Maxol Cobh Site 165",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-8.261501 51.853479)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 166,
+    "fields": {
+      "name": "Top Oil Thurles Site 166",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-7.711571 52.672642)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 167,
+    "fields": {
+      "name": "Circle K Dundalk Site 167",
+      "station_type": "petrol",
+      "fuel_price": "1.80",
+      "geom": "POINT (-6.376944 53.977277)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 168,
+    "fields": {
+      "name": "Circle K Gorey Site 168",
+      "station_type": "petrol",
+      "fuel_price": "1.80",
+      "geom": "POINT (-6.289103 52.652560)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 169,
+    "fields": {
+      "name": "Top Oil Arklow Site 169",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-6.197621 52.803950)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 170,
+    "fields": {
+      "name": "Circle K Limerick Site 170",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-8.630708 52.653319)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 171,
+    "fields": {
+      "name": "Texaco Tipperary Site 171",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-8.220627 52.472762)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 172,
+    "fields": {
+      "name": "Texaco Letterkenny Site 172",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-7.624480 54.939120)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 173,
+    "fields": {
+      "name": "Circle K Tullamore Site 173",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-7.431357 53.292525)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 174,
+    "fields": {
+      "name": "Top Oil Belfast South Site 174",
+      "station_type": "petrol",
+      "fuel_price": "1.74",
+      "geom": "POINT (-5.898269 54.558213)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 175,
+    "fields": {
+      "name": "Texaco Bray Site 175",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-6.113606 53.202930)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 176,
+    "fields": {
+      "name": "Applegreen Longford Site 176",
+      "station_type": "petrol",
+      "fuel_price": "1.80",
+      "geom": "POINT (-7.793144 53.749468)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 177,
+    "fields": {
+      "name": "Maxol Cashel Site 177",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-7.907854 52.496439)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 178,
+    "fields": {
+      "name": "Applegreen Athlone Site 178",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-7.912521 53.428696)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 179,
+    "fields": {
+      "name": "Maxol Shannon Site 179",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-8.937099 52.701750)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 180,
+    "fields": {
+      "name": "Top Oil Westport Site 180",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-9.611148 53.787637)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 181,
+    "fields": {
+      "name": "Top Oil Galway City Site 181",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-9.013753 53.225312)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 182,
+    "fields": {
+      "name": "Circle K Drogheda Site 182",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-6.358476 53.720247)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 183,
+    "fields": {
+      "name": "Texaco Cork City Site 183",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-8.429552 51.873625)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 184,
+    "fields": {
+      "name": "Maxol Drogheda Site 184",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-6.340641 53.711915)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 185,
+    "fields": {
+      "name": "Texaco Kilkenny Site 185",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-7.190140 52.659215)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 186,
+    "fields": {
+      "name": "Top Oil Limerick Site 186",
+      "station_type": "petrol",
+      "fuel_price": "1.70",
+      "geom": "POINT (-8.609445 52.638008)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 187,
+    "fields": {
+      "name": "Top Oil Kilkenny Site 187",
+      "station_type": "petrol",
+      "fuel_price": "1.65",
+      "geom": "POINT (-7.245284 52.625342)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 188,
+    "fields": {
+      "name": "Applegreen Limerick Site 188",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-8.604574 52.611321)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 189,
+    "fields": {
+      "name": "Top Oil Dublin City Site 189",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-6.256147 53.339734)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 190,
+    "fields": {
+      "name": "Applegreen Galway City Site 190",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-9.071275 53.275067)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 191,
+    "fields": {
+      "name": "Maxol Portlaoise Site 191",
+      "station_type": "petrol",
+      "fuel_price": "1.77",
+      "geom": "POINT (-7.338424 53.019548)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 192,
+    "fields": {
+      "name": "Top Oil Enniscorthy Site 192",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-6.554151 52.493390)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 193,
+    "fields": {
+      "name": "Maxol Roscommon Site 193",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-8.213677 53.629867)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 194,
+    "fields": {
+      "name": "Applegreen Cork City Site 194",
+      "station_type": "petrol",
+      "fuel_price": "1.73",
+      "geom": "POINT (-8.431048 51.915466)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 195,
+    "fields": {
+      "name": "Top Oil Limerick Site 195",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-8.638122 52.656182)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 196,
+    "fields": {
+      "name": "Top Oil Maynooth Site 196",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-6.677718 53.395982)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 197,
+    "fields": {
+      "name": "Top Oil Monaghan Site 197",
+      "station_type": "petrol",
+      "fuel_price": "1.82",
+      "geom": "POINT (-6.954845 54.236876)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 198,
+    "fields": {
+      "name": "Maxol Kilkenny Site 198",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-7.300698 52.671650)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 199,
+    "fields": {
+      "name": "Circle K Cork City Site 199",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-8.487099 51.914548)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 200,
+    "fields": {
+      "name": "Applegreen Portlaoise Site 200",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-7.290665 53.038677)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 201,
+    "fields": {
+      "name": "Top Oil Newbridge Site 201",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-6.867341 53.157787)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 202,
+    "fields": {
+      "name": "Maxol Westport Site 202",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-9.525437 53.793433)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 203,
+    "fields": {
+      "name": "Applegreen Belfast South Site 203",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-5.934336 54.591072)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 204,
+    "fields": {
+      "name": "Texaco Kilkenny Site 204",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-7.240273 52.643428)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 205,
+    "fields": {
+      "name": "Maxol Newbridge Site 205",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-6.801064 53.189483)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 206,
+    "fields": {
+      "name": "Texaco Gorey Site 206",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.230786 52.680280)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 207,
+    "fields": {
+      "name": "Applegreen Drogheda Site 207",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-6.374592 53.742944)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 208,
+    "fields": {
+      "name": "Applegreen Limerick Site 208",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-8.601170 52.683327)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 209,
+    "fields": {
+      "name": "Texaco Killarney Site 209",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-9.529761 52.072206)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 210,
+    "fields": {
+      "name": "Applegreen Mullingar Site 210",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-7.275622 53.548033)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 211,
+    "fields": {
+      "name": "Maxol Gorey Site 211",
+      "station_type": "petrol",
+      "fuel_price": "1.77",
+      "geom": "POINT (-6.298360 52.675214)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 212,
+    "fields": {
+      "name": "Texaco Ashbourne Site 212",
+      "station_type": "petrol",
+      "fuel_price": "1.75",
+      "geom": "POINT (-6.427745 53.509736)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 213,
+    "fields": {
+      "name": "Texaco Dundalk Site 213",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.458981 53.996884)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 214,
+    "fields": {
+      "name": "Circle K Bray Site 214",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-6.094154 53.216862)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 215,
+    "fields": {
+      "name": "Maxol Letterkenny Site 215",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-7.751342 54.952455)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 216,
+    "fields": {
+      "name": "Texaco Maynooth Site 216",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-6.625750 53.373631)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 217,
+    "fields": {
+      "name": "Texaco Dublin City Site 217",
+      "station_type": "petrol",
+      "fuel_price": "1.79",
+      "geom": "POINT (-6.223685 53.361436)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 218,
+    "fields": {
+      "name": "Maxol Cobh Site 218",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-8.309585 51.877067)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 219,
+    "fields": {
+      "name": "Texaco Mullingar Site 219",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-7.370386 53.530594)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 220,
+    "fields": {
+      "name": "Maxol Cork City Site 220",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-8.516243 51.895697)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 221,
+    "fields": {
+      "name": "Applegreen Tullamore Site 221",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-7.462109 53.283266)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 222,
+    "fields": {
+      "name": "Circle K Waterford Site 222",
+      "station_type": "petrol",
+      "fuel_price": "1.71",
+      "geom": "POINT (-7.119147 52.220601)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 223,
+    "fields": {
+      "name": "Applegreen Limerick Site 223",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-8.620601 52.669885)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 224,
+    "fields": {
+      "name": "Maxol Arklow Site 224",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-6.151421 52.759076)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 225,
+    "fields": {
+      "name": "Texaco Thurles Site 225",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-7.838845 52.726007)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 226,
+    "fields": {
+      "name": "Top Oil Dublin City Site 226",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.245561 53.320434)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 227,
+    "fields": {
+      "name": "Texaco Tralee Site 227",
+      "station_type": "petrol",
+      "fuel_price": "1.85",
+      "geom": "POINT (-9.682823 52.272577)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 228,
+    "fields": {
+      "name": "Top Oil Cork City Site 228",
+      "station_type": "petrol",
+      "fuel_price": "1.77",
+      "geom": "POINT (-8.419197 51.924885)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 229,
+    "fields": {
+      "name": "Applegreen Portlaoise Site 229",
+      "station_type": "petrol",
+      "fuel_price": "1.76",
+      "geom": "POINT (-7.312553 52.987557)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 230,
+    "fields": {
+      "name": "Circle K Cobh Site 230",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-8.344065 51.854634)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 231,
+    "fields": {
+      "name": "Applegreen Carlow Site 231",
+      "station_type": "petrol",
+      "fuel_price": "1.77",
+      "geom": "POINT (-6.947608 52.847765)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 232,
+    "fields": {
+      "name": "Top Oil Galway City Site 232",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-9.041682 53.270153)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 233,
+    "fields": {
+      "name": "Texaco Galway City Site 233",
+      "station_type": "petrol",
+      "fuel_price": "1.81",
+      "geom": "POINT (-9.096714 53.290597)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 234,
+    "fields": {
+      "name": "Applegreen Dublin City Site 234",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-6.187772 53.368830)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 235,
+    "fields": {
+      "name": "Top Oil Maynooth Site 235",
+      "station_type": "petrol",
+      "fuel_price": "1.86",
+      "geom": "POINT (-6.615074 53.361927)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 236,
+    "fields": {
+      "name": "Texaco Tullamore Site 236",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-7.475503 53.268142)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 237,
+    "fields": {
+      "name": "Applegreen Monaghan Site 237",
+      "station_type": "petrol",
+      "fuel_price": "1.72",
+      "geom": "POINT (-6.978980 54.228377)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 238,
+    "fields": {
+      "name": "Top Oil Maynooth Site 238",
+      "station_type": "petrol",
+      "fuel_price": "1.67",
+      "geom": "POINT (-6.560705 53.401447)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 239,
+    "fields": {
+      "name": "Circle K Westport Site 239",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-9.540539 53.818325)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 240,
+    "fields": {
+      "name": "Circle K Tullamore Site 240",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-7.480423 53.321337)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 241,
+    "fields": {
+      "name": "Top Oil Dundalk Site 241",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-6.387694 53.983969)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 242,
+    "fields": {
+      "name": "Circle K Tullamore Site 242",
+      "station_type": "petrol",
+      "fuel_price": "1.69",
+      "geom": "POINT (-7.561413 53.244910)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 243,
+    "fields": {
+      "name": "Maxol Cavan Site 243",
+      "station_type": "petrol",
+      "fuel_price": "1.66",
+      "geom": "POINT (-7.316271 54.034412)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 244,
+    "fields": {
+      "name": "Texaco Newbridge Site 244",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-6.842658 53.189648)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 245,
+    "fields": {
+      "name": "Maxol Carlow Site 245",
+      "station_type": "petrol",
+      "fuel_price": "1.87",
+      "geom": "POINT (-6.915308 52.833007)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 246,
+    "fields": {
+      "name": "Maxol Waterford Site 246",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-7.059138 52.256241)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 247,
+    "fields": {
+      "name": "Circle K Maynooth Site 247",
+      "station_type": "petrol",
+      "fuel_price": "1.84",
+      "geom": "POINT (-6.570614 53.403429)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 248,
+    "fields": {
+      "name": "Texaco Limerick Site 248",
+      "station_type": "petrol",
+      "fuel_price": "1.78",
+      "geom": "POINT (-8.654448 52.663080)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 249,
+    "fields": {
+      "name": "Applegreen Cork City Site 249",
+      "station_type": "petrol",
+      "fuel_price": "1.83",
+      "geom": "POINT (-8.441869 51.925806)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 250,
+    "fields": {
+      "name": "Applegreen Drogheda Site 250",
+      "station_type": "petrol",
+      "fuel_price": "1.88",
+      "geom": "POINT (-6.325757 53.694538)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 251,
+    "fields": {
+      "name": "Tesla Supercharger Wexford EV Site 1",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-6.352575 52.306964)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 252,
+    "fields": {
+      "name": "EasyGo Tralee EV Site 2",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-9.662796 52.282390)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 253,
+    "fields": {
+      "name": "EasyGo Cork City EV Site 3",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.460420 51.838470)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 254,
+    "fields": {
+      "name": "Tesla Supercharger Portlaoise EV Site 4",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-7.318580 53.008563)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 255,
+    "fields": {
+      "name": "Tesla Supercharger Cork City EV Site 5",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.481614 51.902455)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 256,
+    "fields": {
+      "name": "Tesla Supercharger Dundalk EV Site 6",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-6.390881 54.013445)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 257,
+    "fields": {
+      "name": "EasyGo Shannon EV Site 7",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-8.936486 52.702890)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 258,
+    "fields": {
+      "name": "Tesla Supercharger Dundalk EV Site 8",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-6.388637 54.037893)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 259,
+    "fields": {
+      "name": "ESB EV Charger Westport EV Site 9",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-9.492611 53.808496)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 260,
+    "fields": {
+      "name": "ESB EV Charger Portlaoise EV Site 10",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-7.316472 53.037573)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 261,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 11",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.297014 53.326969)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 262,
+    "fields": {
+      "name": "Tesla Supercharger Naas EV Site 12",
+      "station_type": "ev",
+      "fuel_price": "0.55",
+      "geom": "POINT (-6.629706 53.257931)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 263,
+    "fields": {
+      "name": "Tesla Supercharger Ennis EV Site 13",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.897136 52.864553)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 264,
+    "fields": {
+      "name": "Ionity Waterford EV Site 14",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-7.101251 52.260760)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 265,
+    "fields": {
+      "name": "Ionity Tipperary EV Site 15",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-8.165784 52.465968)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 266,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 16",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-6.206064 53.381962)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 267,
+    "fields": {
+      "name": "EasyGo Bray EV Site 17",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-6.184798 53.243723)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 268,
+    "fields": {
+      "name": "ESB EV Charger Shannon EV Site 18",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.930395 52.738049)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 269,
+    "fields": {
+      "name": "Ionity Cork City EV Site 19",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-8.456251 51.938199)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 270,
+    "fields": {
+      "name": "Tesla Supercharger Cork City EV Site 20",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-8.515873 51.904951)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 271,
+    "fields": {
+      "name": "Ionity Ashbourne EV Site 21",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-6.391511 53.505373)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 272,
+    "fields": {
+      "name": "ESB EV Charger Trim EV Site 22",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-6.741656 53.545047)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 273,
+    "fields": {
+      "name": "ESB EV Charger Bray EV Site 23",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.126665 53.169802)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 274,
+    "fields": {
+      "name": "EasyGo Kinsale EV Site 24",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.482842 51.737182)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 275,
+    "fields": {
+      "name": "EasyGo Newbridge EV Site 25",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-6.742096 53.188556)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 276,
+    "fields": {
+      "name": "Ionity Newbridge EV Site 26",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-6.854250 53.165672)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 277,
+    "fields": {
+      "name": "EasyGo Ballinasloe EV Site 27",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.168120 53.334021)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 278,
+    "fields": {
+      "name": "Tesla Supercharger Maynooth EV Site 28",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-6.586334 53.352840)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 279,
+    "fields": {
+      "name": "ESB EV Charger Enniscorthy EV Site 29",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.616104 52.502802)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 280,
+    "fields": {
+      "name": "ESB EV Charger Cork City EV Site 30",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-8.552319 51.913134)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 281,
+    "fields": {
+      "name": "Ionity Mullingar EV Site 31",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-7.424015 53.509361)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 282,
+    "fields": {
+      "name": "Ionity Galway City EV Site 32",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-9.127474 53.221789)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 283,
+    "fields": {
+      "name": "Tesla Supercharger Limerick EV Site 33",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-8.619643 52.740131)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 284,
+    "fields": {
+      "name": "EasyGo Nenagh EV Site 34",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-8.137010 52.858964)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 285,
+    "fields": {
+      "name": "Tesla Supercharger Cork City EV Site 35",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.489325 51.889646)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 286,
+    "fields": {
+      "name": "ESB EV Charger Greystones EV Site 36",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-6.031110 53.141447)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 287,
+    "fields": {
+      "name": "EasyGo Ballina EV Site 37",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-9.137159 54.098951)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 288,
+    "fields": {
+      "name": "ESB EV Charger Limerick EV Site 38",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.565296 52.675654)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 289,
+    "fields": {
+      "name": "Ionity Athlone EV Site 39",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-7.945387 53.411611)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 290,
+    "fields": {
+      "name": "Ionity Killarney EV Site 40",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-9.517364 52.134924)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 291,
+    "fields": {
+      "name": "EasyGo Athlone EV Site 41",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-7.959090 53.409974)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 292,
+    "fields": {
+      "name": "ESB EV Charger Gorey EV Site 42",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-6.245485 52.630158)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 293,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 43",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-6.256949 53.334744)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 294,
+    "fields": {
+      "name": "Ionity Cobh EV Site 44",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-8.353964 51.850722)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 295,
+    "fields": {
+      "name": "Ionity Athlone EV Site 45",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-7.968801 53.384247)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 296,
+    "fields": {
+      "name": "EasyGo Cavan EV Site 46",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-7.376462 53.990608)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 297,
+    "fields": {
+      "name": "Ionity Limerick EV Site 47",
+      "station_type": "ev",
+      "fuel_price": "0.55",
+      "geom": "POINT (-8.635258 52.632327)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 298,
+    "fields": {
+      "name": "EasyGo Limerick EV Site 48",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-8.564801 52.692687)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 299,
+    "fields": {
+      "name": "Tesla Supercharger Drogheda EV Site 49",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-6.320410 53.723235)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 300,
+    "fields": {
+      "name": "Ionity Navan EV Site 50",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-6.656421 53.675659)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 301,
+    "fields": {
+      "name": "Tesla Supercharger Belfast South EV Site 51",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-5.981800 54.585327)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 302,
+    "fields": {
+      "name": "Tesla Supercharger Athlone EV Site 52",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-7.959462 53.433103)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 303,
+    "fields": {
+      "name": "Tesla Supercharger Kilkenny EV Site 53",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-7.256608 52.666280)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 304,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 54",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-6.197117 53.315462)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 305,
+    "fields": {
+      "name": "Ionity Newbridge EV Site 55",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.807628 53.179914)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 306,
+    "fields": {
+      "name": "ESB EV Charger Cork City EV Site 56",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.528031 51.890159)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 307,
+    "fields": {
+      "name": "Ionity Cork City EV Site 57",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.517714 51.929436)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 308,
+    "fields": {
+      "name": "ESB EV Charger Waterford EV Site 58",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-7.052119 52.268473)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 309,
+    "fields": {
+      "name": "EasyGo Tullamore EV Site 59",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-7.439163 53.316947)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 310,
+    "fields": {
+      "name": "Ionity Enniscorthy EV Site 60",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.592283 52.486505)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 311,
+    "fields": {
+      "name": "Ionity Tralee EV Site 61",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-9.720881 52.216684)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 312,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 62",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-6.207266 53.345780)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 313,
+    "fields": {
+      "name": "Ionity Belfast South EV Site 63",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-6.019514 54.548830)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 314,
+    "fields": {
+      "name": "EasyGo Midleton EV Site 64",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.246548 51.891235)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 315,
+    "fields": {
+      "name": "EasyGo Belfast South EV Site 65",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-5.873819 54.628518)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 316,
+    "fields": {
+      "name": "EasyGo Monaghan EV Site 66",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-6.972644 54.248271)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 317,
+    "fields": {
+      "name": "ESB EV Charger Kilkenny EV Site 67",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-7.198733 52.636275)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 318,
+    "fields": {
+      "name": "Tesla Supercharger Killarney EV Site 68",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-9.529445 52.047361)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 319,
+    "fields": {
+      "name": "Ionity Galway City EV Site 69",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-9.111932 53.261013)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 320,
+    "fields": {
+      "name": "Ionity Waterford EV Site 70",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-7.132530 52.302951)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 321,
+    "fields": {
+      "name": "Ionity Carrick-on-Shannon EV Site 71",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-8.113359 53.966681)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 322,
+    "fields": {
+      "name": "Tesla Supercharger Belfast South EV Site 72",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-5.938357 54.575251)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 323,
+    "fields": {
+      "name": "Ionity Bray EV Site 73",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-6.060640 53.131560)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 324,
+    "fields": {
+      "name": "Tesla Supercharger Newry EV Site 74",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-6.354104 54.163692)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 325,
+    "fields": {
+      "name": "ESB EV Charger Clonmel EV Site 75",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-7.708752 52.378021)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 326,
+    "fields": {
+      "name": "EasyGo Mallow EV Site 76",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-8.644068 52.132808)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 327,
+    "fields": {
+      "name": "EasyGo Dublin City EV Site 77",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-6.276548 53.351499)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 328,
+    "fields": {
+      "name": "Tesla Supercharger Nenagh EV Site 78",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.232705 52.834240)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 329,
+    "fields": {
+      "name": "ESB EV Charger Waterford EV Site 79",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-7.123684 52.296048)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 330,
+    "fields": {
+      "name": "ESB EV Charger Cork City EV Site 80",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-8.489733 51.868747)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 331,
+    "fields": {
+      "name": "ESB EV Charger Galway City EV Site 81",
+      "station_type": "ev",
+      "fuel_price": "0.55",
+      "geom": "POINT (-8.997737 53.254867)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 332,
+    "fields": {
+      "name": "Ionity Bray EV Site 82",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-6.102329 53.169435)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 333,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 83",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-6.221405 53.338598)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 334,
+    "fields": {
+      "name": "Tesla Supercharger Roscommon EV Site 84",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-8.126647 53.613560)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 335,
+    "fields": {
+      "name": "EasyGo Cork City EV Site 85",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-8.515907 51.873916)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 336,
+    "fields": {
+      "name": "EasyGo Tullamore EV Site 86",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-7.487985 53.218857)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 337,
+    "fields": {
+      "name": "ESB EV Charger Longford EV Site 87",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-7.922066 53.719974)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 338,
+    "fields": {
+      "name": "EasyGo Cork City EV Site 88",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-8.492805 51.906551)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 339,
+    "fields": {
+      "name": "Ionity Maynooth EV Site 89",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.554587 53.374050)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 340,
+    "fields": {
+      "name": "ESB EV Charger Cobh EV Site 90",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-8.303176 51.842780)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 341,
+    "fields": {
+      "name": "Ionity Portlaoise EV Site 91",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-7.343273 53.031658)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 342,
+    "fields": {
+      "name": "EasyGo Longford EV Site 92",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-7.854478 53.697262)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 343,
+    "fields": {
+      "name": "Tesla Supercharger Ennis EV Site 93",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-9.004154 52.832175)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 344,
+    "fields": {
+      "name": "EasyGo Portlaoise EV Site 94",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-7.259440 52.975922)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 345,
+    "fields": {
+      "name": "Ionity Macroom EV Site 95",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.992957 51.911498)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 346,
+    "fields": {
+      "name": "EasyGo Thurles EV Site 96",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-7.780516 52.672454)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 347,
+    "fields": {
+      "name": "EasyGo Galway City EV Site 97",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-9.090065 53.278083)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 348,
+    "fields": {
+      "name": "Tesla Supercharger Ennis EV Site 98",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.973015 52.832683)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 349,
+    "fields": {
+      "name": "Ionity Navan EV Site 99",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-6.699149 53.655391)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 350,
+    "fields": {
+      "name": "ESB EV Charger Bray EV Site 100",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-6.101456 53.202495)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 351,
+    "fields": {
+      "name": "ESB EV Charger Naas EV Site 101",
+      "station_type": "ev",
+      "fuel_price": "0.55",
+      "geom": "POINT (-6.590993 53.232991)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 352,
+    "fields": {
+      "name": "Tesla Supercharger Portlaoise EV Site 102",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-7.305935 53.024647)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 353,
+    "fields": {
+      "name": "ESB EV Charger Maynooth EV Site 103",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-6.646116 53.411242)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 354,
+    "fields": {
+      "name": "ESB EV Charger Tuam EV Site 104",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-8.817690 53.491577)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 355,
+    "fields": {
+      "name": "ESB EV Charger Clonmel EV Site 105",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-7.679929 52.353056)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 356,
+    "fields": {
+      "name": "Tesla Supercharger Athlone EV Site 106",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-7.998858 53.442013)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 357,
+    "fields": {
+      "name": "ESB EV Charger Sligo EV Site 107",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.463814 54.286611)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 358,
+    "fields": {
+      "name": "ESB EV Charger Tuam EV Site 108",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-8.801850 53.488891)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 359,
+    "fields": {
+      "name": "ESB EV Charger Dublin City EV Site 109",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-6.264612 53.347984)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 360,
+    "fields": {
+      "name": "ESB EV Charger Dublin City EV Site 110",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.253407 53.369526)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 361,
+    "fields": {
+      "name": "Ionity Dundalk EV Site 111",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-6.432582 53.991267)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 362,
+    "fields": {
+      "name": "Ionity Limerick EV Site 112",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.721125 52.694482)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 363,
+    "fields": {
+      "name": "Tesla Supercharger Mallow EV Site 113",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-8.740512 52.081825)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 364,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 114",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-6.328035 53.274761)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 365,
+    "fields": {
+      "name": "Tesla Supercharger Greystones EV Site 115",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-6.064301 53.132054)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 366,
+    "fields": {
+      "name": "ESB EV Charger Wexford EV Site 116",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.441717 52.310518)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 367,
+    "fields": {
+      "name": "EasyGo Navan EV Site 117",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-6.679498 53.672625)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 368,
+    "fields": {
+      "name": "EasyGo Cork City EV Site 118",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.381832 51.940823)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 369,
+    "fields": {
+      "name": "EasyGo Maynooth EV Site 119",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-6.535739 53.345762)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 370,
+    "fields": {
+      "name": "Ionity Mallow EV Site 120",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-8.734510 52.142938)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 371,
+    "fields": {
+      "name": "Tesla Supercharger Dublin City EV Site 121",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-6.261324 53.338403)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 372,
+    "fields": {
+      "name": "Ionity Monaghan EV Site 122",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-6.932334 54.232663)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 373,
+    "fields": {
+      "name": "Ionity Maynooth EV Site 123",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-6.616486 53.416193)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 374,
+    "fields": {
+      "name": "Ionity Shannon EV Site 124",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-8.936333 52.662302)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 375,
+    "fields": {
+      "name": "EasyGo Newbridge EV Site 125",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-6.795141 53.175458)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 376,
+    "fields": {
+      "name": "EasyGo Nenagh EV Site 126",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-8.292277 52.894947)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 377,
+    "fields": {
+      "name": "Ionity Wexford EV Site 127",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-6.516973 52.337059)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 378,
+    "fields": {
+      "name": "EasyGo Ennis EV Site 128",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-9.095680 52.847733)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 379,
+    "fields": {
+      "name": "ESB EV Charger Naas EV Site 129",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-6.698234 53.216515)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 380,
+    "fields": {
+      "name": "Tesla Supercharger Cork City EV Site 130",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.476092 51.828773)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 381,
+    "fields": {
+      "name": "Tesla Supercharger Arklow EV Site 131",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-6.116439 52.795241)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 382,
+    "fields": {
+      "name": "Tesla Supercharger Gorey EV Site 132",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-6.210411 52.643421)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 383,
+    "fields": {
+      "name": "Ionity Clonmel EV Site 133",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-7.713015 52.353925)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 384,
+    "fields": {
+      "name": "EasyGo Dundalk EV Site 134",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.399430 53.995271)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 385,
+    "fields": {
+      "name": "Ionity Cork City EV Site 135",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-8.516220 51.881211)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 386,
+    "fields": {
+      "name": "Tesla Supercharger Drogheda EV Site 136",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.314038 53.712676)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 387,
+    "fields": {
+      "name": "ESB EV Charger Monaghan EV Site 137",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-6.948690 54.227542)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 388,
+    "fields": {
+      "name": "EasyGo Maynooth EV Site 138",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-6.623704 53.360314)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 389,
+    "fields": {
+      "name": "ESB EV Charger Trim EV Site 139",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-6.732211 53.549991)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 390,
+    "fields": {
+      "name": "Tesla Supercharger Dublin City EV Site 140",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-6.275892 53.325267)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 391,
+    "fields": {
+      "name": "ESB EV Charger Cork City EV Site 141",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-8.539640 51.889378)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 392,
+    "fields": {
+      "name": "Tesla Supercharger Mullingar EV Site 142",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-7.334045 53.529482)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 393,
+    "fields": {
+      "name": "Tesla Supercharger Athlone EV Site 143",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-7.930743 53.414526)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 394,
+    "fields": {
+      "name": "ESB EV Charger Tipperary EV Site 144",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.124127 52.497243)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 395,
+    "fields": {
+      "name": "Ionity Naas EV Site 145",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-6.658299 53.207602)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 396,
+    "fields": {
+      "name": "ESB EV Charger Enniscorthy EV Site 146",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-6.552413 52.447258)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 397,
+    "fields": {
+      "name": "Tesla Supercharger Carlow EV Site 147",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-6.889183 52.824981)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 398,
+    "fields": {
+      "name": "EasyGo Midleton EV Site 148",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-8.201825 51.902577)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 399,
+    "fields": {
+      "name": "EasyGo Cork City EV Site 149",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.479811 51.879981)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 400,
+    "fields": {
+      "name": "Tesla Supercharger Mullingar EV Site 150",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-7.320669 53.521741)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 401,
+    "fields": {
+      "name": "Tesla Supercharger Drogheda EV Site 151",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.355637 53.720048)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 402,
+    "fields": {
+      "name": "Ionity Cork City EV Site 152",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-8.501514 51.891854)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 403,
+    "fields": {
+      "name": "EasyGo Dublin City EV Site 153",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.230929 53.360124)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 404,
+    "fields": {
+      "name": "Ionity Galway City EV Site 154",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-9.063072 53.297098)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 405,
+    "fields": {
+      "name": "ESB EV Charger Dublin City EV Site 155",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-6.266407 53.361080)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 406,
+    "fields": {
+      "name": "Tesla Supercharger Sligo EV Site 156",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.536048 54.237915)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 407,
+    "fields": {
+      "name": "Tesla Supercharger Athlone EV Site 157",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-7.934508 53.418857)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 408,
+    "fields": {
+      "name": "EasyGo Tullamore EV Site 158",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-7.470333 53.247641)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 409,
+    "fields": {
+      "name": "Tesla Supercharger Kinsale EV Site 159",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-8.555156 51.742374)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 410,
+    "fields": {
+      "name": "EasyGo Dundalk EV Site 160",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-6.301151 53.992622)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 411,
+    "fields": {
+      "name": "EasyGo Drogheda EV Site 161",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.287672 53.748830)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 412,
+    "fields": {
+      "name": "Tesla Supercharger Tipperary EV Site 162",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-8.123343 52.476680)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 413,
+    "fields": {
+      "name": "Tesla Supercharger Kilkenny EV Site 163",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-7.266536 52.631584)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 414,
+    "fields": {
+      "name": "Tesla Supercharger Limerick EV Site 164",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-8.657080 52.636362)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 415,
+    "fields": {
+      "name": "Tesla Supercharger Cork City EV Site 165",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-8.535786 51.881148)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 416,
+    "fields": {
+      "name": "ESB EV Charger Newbridge EV Site 166",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.885579 53.147982)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 417,
+    "fields": {
+      "name": "ESB EV Charger Sligo EV Site 167",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-8.513942 54.240073)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 418,
+    "fields": {
+      "name": "Tesla Supercharger Roscommon EV Site 168",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.183751 53.587186)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 419,
+    "fields": {
+      "name": "EasyGo Cork City EV Site 169",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-8.520787 51.895975)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 420,
+    "fields": {
+      "name": "EasyGo Bray EV Site 170",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-6.125421 53.165179)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 421,
+    "fields": {
+      "name": "ESB EV Charger Dublin City EV Site 171",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.221805 53.337270)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 422,
+    "fields": {
+      "name": "Tesla Supercharger Limerick EV Site 172",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-8.622814 52.639985)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 423,
+    "fields": {
+      "name": "Ionity Cork City EV Site 173",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.511577 51.932245)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 424,
+    "fields": {
+      "name": "EasyGo Carrick-on-Shannon EV Site 174",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-8.115474 53.933355)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 425,
+    "fields": {
+      "name": "Tesla Supercharger Sligo EV Site 175",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-8.507114 54.302688)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 426,
+    "fields": {
+      "name": "Tesla Supercharger Wexford EV Site 176",
+      "station_type": "ev",
+      "fuel_price": "0.45",
+      "geom": "POINT (-6.420256 52.390771)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 427,
+    "fields": {
+      "name": "ESB EV Charger Enniscorthy EV Site 177",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-6.645833 52.524251)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 428,
+    "fields": {
+      "name": "ESB EV Charger Kilkenny EV Site 178",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-7.240151 52.628709)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 429,
+    "fields": {
+      "name": "Ionity Clonmel EV Site 179",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-7.725394 52.358637)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 430,
+    "fields": {
+      "name": "Tesla Supercharger Ennis EV Site 180",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-9.036221 52.819903)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 431,
+    "fields": {
+      "name": "Ionity Naas EV Site 181",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-6.646253 53.237556)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 432,
+    "fields": {
+      "name": "Ionity Mallow EV Site 182",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.645711 52.140321)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 433,
+    "fields": {
+      "name": "EasyGo Newbridge EV Site 183",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.870956 53.203912)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 434,
+    "fields": {
+      "name": "EasyGo Navan EV Site 184",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-6.692266 53.634811)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 435,
+    "fields": {
+      "name": "ESB EV Charger Ennis EV Site 185",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-8.967313 52.831852)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 436,
+    "fields": {
+      "name": "Tesla Supercharger Dublin City EV Site 186",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-6.286954 53.364016)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 437,
+    "fields": {
+      "name": "ESB EV Charger Ennis EV Site 187",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-9.044640 52.846377)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 438,
+    "fields": {
+      "name": "EasyGo Wexford EV Site 188",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-6.484771 52.332888)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 439,
+    "fields": {
+      "name": "ESB EV Charger Thurles EV Site 189",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-7.897879 52.663281)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 440,
+    "fields": {
+      "name": "ESB EV Charger Drogheda EV Site 190",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-6.421623 53.766298)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 441,
+    "fields": {
+      "name": "EasyGo Ashbourne EV Site 191",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-6.329053 53.542821)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 442,
+    "fields": {
+      "name": "Tesla Supercharger Dublin City EV Site 192",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-6.241990 53.325277)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 443,
+    "fields": {
+      "name": "Ionity Limerick EV Site 193",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-8.609022 52.628817)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 444,
+    "fields": {
+      "name": "EasyGo Enniscorthy EV Site 194",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-6.539720 52.519958)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 445,
+    "fields": {
+      "name": "EasyGo Dublin City EV Site 195",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-6.315685 53.326763)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 446,
+    "fields": {
+      "name": "ESB EV Charger Carrick-on-Shannon EV Site 196",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.058074 53.939600)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 447,
+    "fields": {
+      "name": "EasyGo Greystones EV Site 197",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-5.971847 53.083312)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 448,
+    "fields": {
+      "name": "Tesla Supercharger Limerick EV Site 198",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.611243 52.639566)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 449,
+    "fields": {
+      "name": "ESB EV Charger Cobh EV Site 199",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-8.353338 51.884039)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 450,
+    "fields": {
+      "name": "Ionity Cork City EV Site 200",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-8.506211 51.864571)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 451,
+    "fields": {
+      "name": "ESB EV Charger Ennis EV Site 201",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.979558 52.841853)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 452,
+    "fields": {
+      "name": "Tesla Supercharger Carlow EV Site 202",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-6.884914 52.794660)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 453,
+    "fields": {
+      "name": "Ionity Navan EV Site 203",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-6.720807 53.700680)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 454,
+    "fields": {
+      "name": "ESB EV Charger Cobh EV Site 204",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.291618 51.832728)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 455,
+    "fields": {
+      "name": "EasyGo Arklow EV Site 205",
+      "station_type": "ev",
+      "fuel_price": "0.46",
+      "geom": "POINT (-6.097197 52.828519)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 456,
+    "fields": {
+      "name": "EasyGo Dublin City EV Site 206",
+      "station_type": "ev",
+      "fuel_price": "0.53",
+      "geom": "POINT (-6.162348 53.348218)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 457,
+    "fields": {
+      "name": "Ionity Athlone EV Site 207",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-7.945336 53.444809)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 458,
+    "fields": {
+      "name": "Ionity Newbridge EV Site 208",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-6.723103 53.197195)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 459,
+    "fields": {
+      "name": "EasyGo Wexford EV Site 209",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-6.439605 52.344349)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 460,
+    "fields": {
+      "name": "ESB EV Charger Limerick EV Site 210",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-8.694400 52.675235)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 461,
+    "fields": {
+      "name": "ESB EV Charger Limerick EV Site 211",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-8.566085 52.704061)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 462,
+    "fields": {
+      "name": "Ionity Cork City EV Site 212",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.500023 51.918638)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 463,
+    "fields": {
+      "name": "ESB EV Charger Limerick EV Site 213",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-8.555233 52.682228)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 464,
+    "fields": {
+      "name": "EasyGo Galway City EV Site 214",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-9.101838 53.243324)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 465,
+    "fields": {
+      "name": "ESB EV Charger Enniscorthy EV Site 215",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.481331 52.532177)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 466,
+    "fields": {
+      "name": "Ionity Limerick EV Site 216",
+      "station_type": "ev",
+      "fuel_price": "0.52",
+      "geom": "POINT (-8.573994 52.653242)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 467,
+    "fields": {
+      "name": "Ionity Sligo EV Site 217",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.490368 54.266693)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 468,
+    "fields": {
+      "name": "EasyGo Cavan EV Site 218",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-7.348456 53.982459)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 469,
+    "fields": {
+      "name": "EasyGo Tralee EV Site 219",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-9.712692 52.258312)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 470,
+    "fields": {
+      "name": "ESB EV Charger Cork City EV Site 220",
+      "station_type": "ev",
+      "fuel_price": "0.55",
+      "geom": "POINT (-8.452952 51.908343)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 471,
+    "fields": {
+      "name": "Ionity Mullingar EV Site 221",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-7.366867 53.518182)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 472,
+    "fields": {
+      "name": "ESB EV Charger Galway City EV Site 222",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-9.043029 53.202047)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 473,
+    "fields": {
+      "name": "Tesla Supercharger Dublin City EV Site 223",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-6.250903 53.352040)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 474,
+    "fields": {
+      "name": "Tesla Supercharger Arklow EV Site 224",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-6.240800 52.820923)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 475,
+    "fields": {
+      "name": "ESB EV Charger Clonmel EV Site 225",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-7.674484 52.365307)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 476,
+    "fields": {
+      "name": "ESB EV Charger Kilkenny EV Site 226",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-7.279121 52.684835)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 477,
+    "fields": {
+      "name": "ESB EV Charger Trim EV Site 227",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-6.692297 53.577327)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 478,
+    "fields": {
+      "name": "EasyGo Cork City EV Site 228",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-8.507365 51.931763)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 479,
+    "fields": {
+      "name": "Ionity Carrick-on-Shannon EV Site 229",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.101944 53.946948)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 480,
+    "fields": {
+      "name": "Ionity Belfast South EV Site 230",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-5.930044 54.566688)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 481,
+    "fields": {
+      "name": "Ionity Limerick EV Site 231",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.623401 52.649820)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 482,
+    "fields": {
+      "name": "Tesla Supercharger Letterkenny EV Site 232",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-7.656763 54.975903)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 483,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 233",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-6.302390 53.377346)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 484,
+    "fields": {
+      "name": "ESB EV Charger Cobh EV Site 234",
+      "station_type": "ev",
+      "fuel_price": "0.40",
+      "geom": "POINT (-8.300627 51.828714)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 485,
+    "fields": {
+      "name": "EasyGo Dublin City EV Site 235",
+      "station_type": "ev",
+      "fuel_price": "0.42",
+      "geom": "POINT (-6.284909 53.363086)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 486,
+    "fields": {
+      "name": "Tesla Supercharger Dublin City EV Site 236",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-6.265354 53.298421)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 487,
+    "fields": {
+      "name": "ESB EV Charger Sligo EV Site 237",
+      "station_type": "ev",
+      "fuel_price": "0.48",
+      "geom": "POINT (-8.483876 54.305667)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 488,
+    "fields": {
+      "name": "ESB EV Charger Limerick EV Site 238",
+      "station_type": "ev",
+      "fuel_price": "0.54",
+      "geom": "POINT (-8.597066 52.703938)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 489,
+    "fields": {
+      "name": "Ionity Dublin City EV Site 239",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-6.241903 53.276056)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 490,
+    "fields": {
+      "name": "Ionity Nenagh EV Site 240",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.211369 52.890016)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 491,
+    "fields": {
+      "name": "EasyGo Sligo EV Site 241",
+      "station_type": "ev",
+      "fuel_price": "0.51",
+      "geom": "POINT (-8.536961 54.271196)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 492,
+    "fields": {
+      "name": "Tesla Supercharger Tipperary EV Site 242",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-8.099406 52.474602)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 493,
+    "fields": {
+      "name": "Ionity Tipperary EV Site 243",
+      "station_type": "ev",
+      "fuel_price": "0.39",
+      "geom": "POINT (-8.116800 52.449499)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 494,
+    "fields": {
+      "name": "EasyGo Tuam EV Site 244",
+      "station_type": "ev",
+      "fuel_price": "0.47",
+      "geom": "POINT (-8.869185 53.545758)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 495,
+    "fields": {
+      "name": "EasyGo Sligo EV Site 245",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-8.404400 54.262459)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 496,
+    "fields": {
+      "name": "Tesla Supercharger Cork City EV Site 246",
+      "station_type": "ev",
+      "fuel_price": "0.50",
+      "geom": "POINT (-8.480766 51.893510)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 497,
+    "fields": {
+      "name": "EasyGo Newbridge EV Site 247",
+      "station_type": "ev",
+      "fuel_price": "0.49",
+      "geom": "POINT (-6.861443 53.161590)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 498,
+    "fields": {
+      "name": "EasyGo Bray EV Site 248",
+      "station_type": "ev",
+      "fuel_price": "0.43",
+      "geom": "POINT (-6.119405 53.205413)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 499,
+    "fields": {
+      "name": "Ionity Letterkenny EV Site 249",
+      "station_type": "ev",
+      "fuel_price": "0.44",
+      "geom": "POINT (-7.837143 54.999065)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  },
+  {
+    "model": "stations.station",
+    "pk": 500,
+    "fields": {
+      "name": "ESB EV Charger Drogheda EV Site 250",
+      "station_type": "ev",
+      "fuel_price": "0.41",
+      "geom": "POINT (-6.317700 53.738391)",
+      "updated_at": "2025-11-05T19:36:46.482276+00:00"
+    }
+  }
+]
