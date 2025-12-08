@@ -1,16 +1,16 @@
 #!/bin/sh
+set -e
 
-echo "Waiting for PostgreSQL..."
+echo "Waiting for database..."
 
-# Wait for DB
 while ! nc -z $POSTGRES_HOST $POSTGRES_PORT; do
   sleep 1
 done
 
-echo "PostgreSQL started!"
+echo "Database is ready!"
 
-# Run migrations
 python manage.py migrate --noinput
 
-# Start server
-gunicorn fuelsmart.wsgi:application --bind 0.0.0.0:8000
+python manage.py collectstatic --noinput
+
+exec gunicorn fuelsmart.wsgi:application --bind 0.0.0.0:8000
