@@ -63,4 +63,4 @@ class NearbyStations(generics.ListAPIView):
 # Map HTML page
 # -------------------------
 def map_page(request):
-    return render(request, "map.html")
+    return render(request, "stations/map.html")

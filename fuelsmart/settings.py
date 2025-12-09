@@ -3,23 +3,19 @@ from pathlib import Path
 from dotenv import load_dotenv
 import dj_database_url
 
-# Load .env file
 load_dotenv()
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 # ---------------------------------------------------------
-# SECURITY SETTINGS
+# SECURITY
 # ---------------------------------------------------------
 SECRET_KEY = os.getenv("DJANGO_SECRET_KEY", "dev-secret-key")
 
 DEBUG = os.getenv("DJANGO_DEBUG", "True") == "True"
 
-ALLOWED_HOSTS = [
-    'localhost',
-    '127.0.0.1',
-    'advancedweb-ca.onrender.com'
-]
+# Allow all hosts to avoid Render hostname issues
+ALLOWED_HOSTS = ["*"]
 
 # ---------------------------------------------------------
 # INSTALLED APPS
@@ -32,21 +28,18 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
 
-    # REST framework
     "rest_framework",
-
-    # Your apps
-    "stations",
-
-    # CORS (optional but recommended for Render)
     "corsheaders",
+
+    # your app
+    "stations",
 ]
 
 # ---------------------------------------------------------
 # MIDDLEWARE
 # ---------------------------------------------------------
 MIDDLEWARE = [
-    "corsheaders.middleware.CorsMiddleware",  # must be first
+    "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
@@ -59,12 +52,13 @@ MIDDLEWARE = [
 ROOT_URLCONF = "fuelsmart.urls"
 
 # ---------------------------------------------------------
-# TEMPLATES
+# TEMPLATES (IMPORTANT FIX!)
 # ---------------------------------------------------------
 TEMPLATES = [
     {
         "BACKEND": "django.template.backends.django.DjangoTemplates",
-        "DIRS": [os.path.join(BASE_DIR, "templates")],
+        # DO NOT point to project root templates — your templates are inside apps
+        "DIRS": [],
         "APP_DIRS": True,
         "OPTIONS": {
             "context_processors": [
@@ -80,7 +74,7 @@ TEMPLATES = [
 WSGI_APPLICATION = "fuelsmart.wsgi.application"
 
 # ---------------------------------------------------------
-# DATABASE SETTINGS (SUPABASE POSTGIS)
+# DATABASE
 # ---------------------------------------------------------
 DATABASES = {
     "default": {
@@ -93,34 +87,19 @@ DATABASES = {
     }
 }
 
-
-
 # ---------------------------------------------------------
-# PASSWORD VALIDATION
-# ---------------------------------------------------------
-AUTH_PASSWORD_VALIDATORS = [
-    {"NAME": "django.contrib.auth.password_validation.UserAttributeSimilarityValidator"},
-    {"NAME": "django.contrib.auth.password_validation.MinimumLengthValidator"},
-    {"NAME": "django.contrib.auth.password_validation.CommonPasswordValidator"},
-    {"NAME": "django.contrib.auth.password_validation.NumericPasswordValidator"},
-]
-
-# ---------------------------------------------------------
-# INTERNATIONALIZATION
-# ---------------------------------------------------------
-LANGUAGE_CODE = "en-us"
-TIME_ZONE = "UTC"
-USE_I18N = True
-USE_TZ = True
-
-# ---------------------------------------------------------
-# STATIC FILES (Render-compatible)
+# STATIC FILES (Render compatible)
 # ---------------------------------------------------------
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
 
+# VERY IMPORTANT: your static folder inside stations/static/
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, "stations/static"),
+]
+
 # ---------------------------------------------------------
-# MEDIA FILES (optional)
+# MEDIA
 # ---------------------------------------------------------
 MEDIA_URL = "/media/"
 MEDIA_ROOT = os.path.join(BASE_DIR, "media")
@@ -132,15 +111,12 @@ REST_FRAMEWORK = {
     "DEFAULT_RENDERER_CLASSES": [
         "rest_framework.renderers.JSONRenderer",
         "rest_framework.renderers.BrowsableAPIRenderer",
-    ],
+    ]
 }
 
 # ---------------------------------------------------------
-# CORS CONFIG (allows PWA + Render frontend to access API)
+# CORS
 # ---------------------------------------------------------
-CORS_ALLOW_ALL_ORIGINS = True   # You can restrict later
+CORS_ALLOW_ALL_ORIGINS = True
 
-# ---------------------------------------------------------
-# DEFAULT PRIMARY KEY FIELD TYPE
-# ---------------------------------------------------------
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
