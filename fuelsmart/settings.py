@@ -98,6 +98,9 @@ STATICFILES_DIRS = [
     os.path.join(BASE_DIR, "stations/static"),
 ]
 
+STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
+
+
 # ---------------------------------------------------------
 # MEDIA
 # ---------------------------------------------------------
