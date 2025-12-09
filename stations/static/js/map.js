@@ -306,7 +306,8 @@ async function load(url) {
 
 function useMyLocation() {
   if (!navigator.geolocation) {
-    alert("Geolocation is not supported in your browser.");
+    loadPOIs(latitude, longitude);
+    loadEV(latitude, longitude);
     return;
   }
 
@@ -477,6 +478,23 @@ map.on("click", (e) => {
   const url = `/api/stations/nearby/?lat=${lat}&lon=${lng}&radius=5000`;
   load(url);
 });
+
+async function loadPOIs(lat, lon) {
+  const url = `/api/pois/?lat=${lat}&lon=${lon}`;
+  const res = await fetch(url);
+  const data = await res.json();
+
+  console.log("POI results:", data);
+}
+
+async function loadEV(lat, lon) {
+  const url = `/api/ev/?lat=${lat}&lon=${lon}`;
+  const res = await fetch(url);
+  const data = await res.json();
+
+  console.log("EV chargers:", data);
+}
+
 
 // ---------- 9. Initial load: show all stations -------------------
 
