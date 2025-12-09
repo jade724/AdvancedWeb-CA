@@ -41,6 +41,7 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     "corsheaders.middleware.CorsMiddleware",
     "django.middleware.security.SecurityMiddleware",
+    "whitenoise.middleware.WhiteNoiseMiddleware",
     "django.contrib.sessions.middleware.SessionMiddleware",
     "django.middleware.common.CommonMiddleware",
     "django.middleware.csrf.CsrfViewMiddleware",
@@ -92,10 +93,11 @@ DATABASES = {
 # ---------------------------------------------------------
 STATIC_URL = "/static/"
 STATIC_ROOT = os.path.join(BASE_DIR, "staticfiles")
+STATICFILES_STORAGE = "whitenoise.storage.CompressedManifestStaticFilesStorage"
 
 # VERY IMPORTANT: your static folder inside stations/static/
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, "stations/static"),
+    BASE_DIR / "stations" / "static",
 ]
 
 STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"
