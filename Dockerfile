@@ -1,24 +1,29 @@
-# Use Python base image
+# Use official Python base image
 FROM python:3.11-slim
 
 # Set work directory
 WORKDIR /app
 
-# Install Python dependencies
+# Install system dependencies
+RUN apt-get update && apt-get install -y \
+    libpq-dev gcc postgresql-client \
+    && rm -rf /var/lib/apt/lists/*
+
+# Install Python dependencies first
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy the entire project into the container
+# Copy project files
 COPY . .
 
-# Ensure entrypoint is executable
-RUN chmod +x entrypoint.sh
+# Make entrypoint executable
+RUN chmod +x /app/entrypoint.sh
 
-# Collect static assets during build (optional but OK)
-# RUN python manage.py collectstatic --noinput
+# Collect static files
+RUN python manage.py collectstatic --noinput
 
-# Expose port used by Render
+# Expose port
 EXPOSE 8000
 
-# Use entrypoint to run migrations, collect static, and start Gunicorn
+# Start using entrypoint
 ENTRYPOINT ["./entrypoint.sh"]
