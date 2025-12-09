@@ -48,6 +48,10 @@ Users can:
 
 ![Render Dashboard](screenshots/dashboard.png)
 
+### 📱 PWA Running on Mobile
+
+![PWA Screenshot](screenshots/pwa.png)
+
 
 ---
 
