@@ -1,23 +1,24 @@
+# Use Python base image
 FROM python:3.11-slim
 
 # Set work directory
 WORKDIR /app
 
-# Install dependencies
+# Install Python dependencies
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
 
-# Copy project files
+# Copy the entire project into the container
 COPY . .
 
-# Make sure entrypoint.sh is executable
+# Ensure entrypoint is executable
 RUN chmod +x entrypoint.sh
 
-# IMPORTANT: Ensure static files exist before collectstatic
-# (Your static files are inside stations/static, so COPY . . above must include them)
+# Collect static assets during build (optional but OK)
+# RUN python manage.py collectstatic --noinput
 
-# Expose port
+# Expose port used by Render
 EXPOSE 8000
 
-# Entrypoint will run migrate + collectstatic + gunicorn
+# Use entrypoint to run migrations, collect static, and start Gunicorn
 ENTRYPOINT ["./entrypoint.sh"]
