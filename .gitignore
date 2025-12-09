@@ -43,3 +43,5 @@ build/
 # macOS junk files
 .DS_Store
 ._*
+venv/
+staticfiles/
