@@ -39,3 +39,7 @@ media/
 *.egg-info/
 dist/
 build/
+
+# macOS junk files
+.DS_Store
+._*
